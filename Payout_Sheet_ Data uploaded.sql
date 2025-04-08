@@ -1,0 +1,6 @@
+LOAD DATA INFILE 'D:/Excel/payout_sheet.csv'
+INTO TABLE payout_sheet
+FIELDS TERMINATED BY ','  
+ENCLOSED BY '"'  
+LINES TERMINATED BY '\r\n'
+IGNORE 1 ROWS;
