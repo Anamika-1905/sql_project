@@ -1,1 +1,0 @@
-ALTER TABLE payout_sheet MODIFY COLUMN `OD Start Date` DATE NULL;
